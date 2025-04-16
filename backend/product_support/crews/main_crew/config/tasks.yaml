@@ -1,0 +1,18 @@
+describe_image:
+  description: >
+    Describe the washing machine image(s) to identify key details
+  expected_output: >
+    A detailed paragraph per image with 3-5 sentences each
+  agent: image_describer
+
+unified_reflection_task:
+  description: >
+    Analyze the user's query in the context of the washing machine image, machine details and conversation_history.
+    Query: {user_prompt}
+    Machine Info: {machine_details}
+    Conversation History: {conversation_history}
+    Your goal is to provide a highly relevant, accurate, and concise answer to the user's question
+  expected_output: >
+    - Clear and actionable response to {user_prompt}.
+    - Bullet points where applicable, each under 10 words.
+  agent: unified_reflection_agent
