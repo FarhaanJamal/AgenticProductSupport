@@ -1,0 +1,9 @@
+generate_faqs:
+  description: >
+    Based on the given machine details: {machine_details},
+    Each FAQ should be between 5 to 8 words,
+    Respond with a Python list of strings.
+  expected_output: >
+    A Python list of 5 string-based FAQs like:
+    ["How to clean the filter?", "What is EcoWash mode?", ...]
+  agent: faq_generator
