@@ -1,7 +1,7 @@
 # Agentic Product Support
 
 ## Project Overview
-The **Agentic Product Support** project is a multi-agent AI system designed to provide intelligent product support for household products with 2 crews, 3 tools and 4 specialized agents in a flow. It leverages the **crewAI** framework to enable seamless collaboration between agents, utilizing tools like QR code scanning, PDF parsing, and web search to retrieve machine details and provide accurate, stepwise resolutions to user queries. The system is powered by **Google Gemini LLMs** for generating FAQs, image descriptions, and cross-referencing information from manuals and the web.
+The **Agentic Product Support** project is a multi-agent AI system designed to provide intelligent support for household products by orchestrating 2 crews, 3 tools, and 4 specialized agents in a coordinated flow using the crewAI framework. It leverages technologies like QR code scanning, PDF parsing, and web search to retrieve machine-specific details and deliver accurate, stepwise solutions to user queries, all powered by Google Gemini LLMs for generating FAQs, image descriptions, and cross-referencing information. The system includes a FastAPI backend for managing APIs, image uploads, and agent execution, along with a responsive React frontend built with Material UI for intuitive user interaction through QR uploads, chat interface, and FAQ selection.
 
 ---
 
@@ -21,6 +21,8 @@ https://github.com/user-attachments/assets/31504266-379b-4b84-a38c-2d34ea7063cb
 ### 2. **Key Technologies**
 - **crewAI Framework**: Provides the flow-based architecture for multi-agent collaboration.
 - **Google Gemini LLMs**: Used for natural language understanding and generation.
+- **FastAPI**: Backend framework for API handling and coordination between frontend and agent layer.
+- **React + Material UI**: Frontend stack for user interaction and display.
 - **Python Libraries**:
   - `pydantic`: For state management.
   - `pyzbar`: For QR code decoding.
