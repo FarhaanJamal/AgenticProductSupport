@@ -1,0 +1,61 @@
+.main-card{
+    background-color: #E8F2D8;
+}
+
+
+.top-title{
+    padding-left: 3rem;
+}
+
+.home-alignment{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 5rem;
+    padding-top: 8rem;
+}
+
+
+
+.home-alignment img{
+    height: 150px;
+    width: 150px;
+    align-self: center;
+}
+
+
+.home-buttons{
+    gap: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-left: 3rem;
+    padding-top: 2rem;
+}
+
+.home-individual-buttons{
+    color: #375932;
+    background-color: #B5D991;
+    font-weight: bold;
+    border-radius: 2rem;
+    font-size: 1rem;
+    border: none;
+    padding: 1rem;
+    text-align: center;
+    align-items: center;
+    width: 18rem;
+
+}
+
+
+.footer {
+    color: #375932;
+    font-style: italic;
+    font-weight: 300;
+    text-align: center;
+    padding-top: 9rem;
+}
+
+.top-title{
+    color: #375932;
+}
