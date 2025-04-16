@@ -1,18 +1,9 @@
-from pydantic import BaseModel
 from pyzbar.pyzbar import decode
 from PIL import Image
 import pandas as pd
 import os
 from crews.hypothesis_crew.hypothesis_crew import HypothesisCrew
 from crews.main_crew.main_crew import MainCrew
-
-
-class ProductSupportState(BaseModel):
-    machine_details: str = ""
-    initial_hypothesis: list = []
-    user_prompt: str = ""
-    final_result: str = ""
-    conversation_history: list = []
 
 
 def get_machine_details():
